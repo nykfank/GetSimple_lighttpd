@@ -1,4 +1,4 @@
-# lighttpd Configuration for GetSimple CMS
+# lighttpd configuration for GetSimple CMS
 
 ```
 $HTTP["host"] =~ "domain_for_GetSimple" {
