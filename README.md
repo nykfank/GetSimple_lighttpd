@@ -7,5 +7,3 @@ $HTTP["host"] =~ "domain_for_GetSimple" {
         url.access-deny = ( ".xml" )
         url.rewrite = ( "/(admin)/?(.*)" => "$0", "/([A-Za-z0-9_-]+)/?$" => "/?id=$1" )
 }
-
-
